@@ -1,8 +1,8 @@
 
-my car - v10 2025-04-25 5:43pm
+my car - v13 2025-05-15 3:26pm
 ==============================
 
-This dataset was exported via roboflow.com on April 25, 2025 at 5:43 PM GMT
+This dataset was exported via roboflow.com on May 15, 2025 at 12:29 PM GMT
 
 Roboflow is an end-to-end computer vision platform that helps you
 * collaborate with your team on computer vision projects
@@ -17,7 +17,7 @@ visit https://github.com/roboflow/notebooks
 
 To find over 100k other datasets and pre-trained models, visit https://universe.roboflow.com
 
-The dataset includes 1452 images.
+The dataset includes 3782 images.
 Objects are annotated in YOLOv8 Oriented Object Detection format.
 
 The following pre-processing was applied to each image:
