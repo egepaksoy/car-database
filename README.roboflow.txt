@@ -1,8 +1,8 @@
 
-blue car - v1 2025-05-31 7:59pm
+my car - v13 2025-05-15 3:26pm
 ==============================
 
-This dataset was exported via roboflow.com on May 31, 2025 at 5:01 PM GMT
+This dataset was exported via roboflow.com on May 15, 2025 at 12:29 PM GMT
 
 Roboflow is an end-to-end computer vision platform that helps you
 * collaborate with your team on computer vision projects
@@ -17,17 +17,19 @@ visit https://github.com/roboflow/notebooks
 
 To find over 100k other datasets and pre-trained models, visit https://universe.roboflow.com
 
-The dataset includes 3631 images.
-Araba are annotated in YOLOv8 Oriented Object Detection format.
+The dataset includes 3782 images.
+Objects are annotated in YOLOv8 Oriented Object Detection format.
 
 The following pre-processing was applied to each image:
 * Auto-orientation of pixel data (with EXIF-orientation stripping)
 * Resize to 640x640 (Stretch)
+* Auto-contrast via contrast stretching
 
 The following augmentation was applied to create 3 versions of each source image:
 * 50% probability of horizontal flip
-* Randomly crop between 0 and 20 percent of the image
+* Random rotation of between -15 and +15 degrees
 * Random brigthness adjustment of between -15 and +15 percent
-* Random Gaussian blur of between 0 and 1.1 pixels
+* Random Gaussian blur of between 0 and 1 pixels
+* Salt and pepper noise was applied to 1.89 percent of pixels
 
 

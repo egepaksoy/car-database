@@ -3,4 +3,5 @@ val: valid/images
 test: test/images
 
 names: 
-  0: araba
+  0: kirmizi-araba
+  1: mavi-araba
