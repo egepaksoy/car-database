@@ -3,4 +3,4 @@ val: valid/images
 test: test/images
 
 names: 
-  0: objects
+  0: araba
